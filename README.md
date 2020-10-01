@@ -1,11 +1,12 @@
 # pymoli
 
+This takes in a csv with purchase data about the (fictional) game "pymoli" and analyzes it using pandas. The output it returns is given below. 
 
-Congratulations! After a lot of hard work in the data munging mines, you've landed a job as Lead Analyst for an independent gaming company. You've been assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli.
+A few notable trends from that data: 
+1. As is the case with a great many computer games, the overwhelming majority (84%) of the player base is male. Interestingly, the average single purchase by a woman will be slightly higher than a man's, but if you look at the total money spent the men will outspend the women. (Essentially, women tend to purchase fewer, more expensive items and vice versa.)
+2. A significant majority (62%) of the player base is between 15 and 25 years of age, and likely indicates most players are in some form of upper education (high school or college). 
+3. Even the most profligate spenders still don't buy much: no one bought more than five items, and only three people (of 576) bought more than three. 
 
-Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. As a first task, the company would like you to generate a report that breaks down the game's purchasing data into meaningful insights.
-
-Your final report should include each of the following:
 
 ### Player Count
 
@@ -66,9 +67,4 @@ Your final report should include each of the following:
   * Item Price
   * Total Purchase Value
 
-As final considerations:
-
-* You must use the Pandas Library and the Jupyter Notebook.
-* You must submit a link to your Jupyter Notebook with the viewable Data Frames.
-* You must include a written description of three observable trends based on the data.
-* See [Example Solution](HeroesOfPymoli/HeroesOfPymoli_starter.ipynb) for a reference on expected format.
+This was completed as the week 4 (pandas) homework for USC Viterbi Boot Camp. 
